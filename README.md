@@ -1,25 +1,71 @@
-# Invoice-App
+Here's a refined and more structured version of your README for better readability and clarity:  
 
-It is an API that allows users to create multiple invoices by providing correct details about it,
-store them in database and send a email upon successful creation of invoice.
-It alerts the user a day before the due date of invoice through Email.
-It also facilitates the user to change the status of invoice to paid or late as per their requirement and 
-automatically send email related to the successful change in status of their invoices.
+---
 
-[<u># API Documentation </u>](https://documenter.getpostman.com/view/19569751/UVkgxJsK)
+# 🧾 Invoice-App  
 
-STEPS TO RUN THE API:
+An API that allows users to **create, store, and manage invoices** efficiently. It supports email notifications upon invoice creation and alerts users a day before the due date. Users can also **update invoice statuses (Paid/Late), triggering automatic email notifications** about the status change.  
 
-1.run npm install to download all the dependencies.
+📄 **[API Documentation](https://documenter.getpostman.com/view/19569751/UVkgxJsK) (Postman)**  
 
-2.Create a .env file in the root and Add your own MongoDB URL and GOOGLE_API CREDENTIALS.
+---
 
-3.run npm start to start the server.
+## 🚀 Features  
 
-4.To Work on the project, fire up the postman and check all the APIs.
+✅ Create multiple invoices with required details  
+✅ Store invoices in MongoDB database  
+✅ Email notification upon successful invoice creation  
+✅ Automatic reminder email **one day before** the due date  
+✅ Update invoice status (Paid/Late) with email confirmation  
+✅ Secure authentication using **Google API Credentials**  
 
-5.You can upload your own invoice containing your respective required fields as mentioned in api documenatation.
+---
 
-6.All the invoices will be stored in your MongoDb Database.
+## 🛠️ Setup & Installation  
 
-7.run ctrl + c to stop the server.
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/Invoice-App.git
+cd Invoice-App
+```
+
+### 2️⃣ Install Dependencies  
+```sh
+npm install
+```
+
+### 3️⃣ Set Up Environment Variables  
+Create a `.env` file in the root directory and add the following:  
+```
+MONGO_URI=your_mongodb_connection_url
+GOOGLE_API_CREDENTIALS=your_google_api_credentials
+```
+
+### 4️⃣ Start the Server  
+```sh
+npm start
+```
+
+### 5️⃣ Test the API with Postman  
+- Open **Postman**  
+- Use the endpoints as documented in the **[API Documentation](https://documenter.getpostman.com/view/19569751/UVkgxJsK)**  
+- Upload invoices with the required fields  
+- Verify that invoices are stored in MongoDB  
+
+### 6️⃣ Stop the Server  
+Press `CTRL + C` in the terminal  
+
+---
+
+## 📌 Tech Stack  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** Google API Credentials  
+- **Email Notifications:** Nodemailer  
+
+---
+
+### 📬 Contributions & Issues  
+Feel free to **fork** the repo and submit a **pull request**! For any issues, open a ticket in the **Issues** section.  
+
+🔹 **Happy Coding!** 🚀
