@@ -1,7 +1,3 @@
-Here's a refined and more structured version of your README for better readability and clarity:  
-
----
-
 # 🧾 Invoice-App  
 
 An API that allows users to **create, store, and manage invoices** efficiently. It supports email notifications upon invoice creation and alerts users a day before the due date. Users can also **update invoice statuses (Paid/Late), triggering automatic email notifications** about the status change.  
